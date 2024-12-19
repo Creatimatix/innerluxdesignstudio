@@ -27,27 +27,15 @@ document.getElementById('navbar_html').innerHTML = `
 													<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
 												</svg>
 											</span>
-											<ul class="navigation clearfix">
-												<li class="dropdown active">
+											<ul class="navigation clearfix menu_list">
+												<li class="dropdown" id="home_link">
 													<a href="index.html">Home</a>
 												</li>
-												<li class="dropdown">
-													<a href="#">Pages</a>
-													<ul>
-														<li><a href="our-history.html">Our History</a></li>
-														<li><a href="our-team.html">Our Team</a></li>
-														<li><a href="team-single-details.html">Team Single Details</a></li>
-														<li><a href="faq.html">Faq</a></li>
-													</ul>
+												<li class="dropdown" id="service_link">
+													<a href="service-details.html">Services</a>
 												</li>
-												<li class="dropdown">
-													<a href="#">Services</a>
-													<ul>
-														<li><a href="service-details.html">Service Detail</a></li>
-													</ul>
-												</li>
-												<li><a href="about-us.html">About Us</a></li>
-												<li><a href="contact-us.html">Contact Us</a></li>
+												<li id="about_link"><a href="about-us.html">About Us</a></li>
+												<li id="contact_us_link"><a href="contact-us.html">Contact Us</a></li>
 											</ul>
 										</div>
 									</div>
@@ -57,3 +45,17 @@ document.getElementById('navbar_html').innerHTML = `
 					</div>
 				</div>
 			</div>`;
+
+
+$( window ).on("load", function() {
+    console.log(window.location.pathname.split("/")[1]);
+    if(window.location.pathname.split("/")[1] === "index.html"){
+        $("#home_link").addClass("active");
+    }else if(window.location.pathname.split("/")[1] === "service-details.html"){
+        $("#service_link").addClass("active");
+    }else if(window.location.pathname.split("/")[1] === "about-us.html"){
+        $("#about_link").addClass("active");
+    }else if(window.location.pathname.split("/")[1] === "contact-us.html"){
+        $("#contact_us_link").addClass("active");
+    } 
+});

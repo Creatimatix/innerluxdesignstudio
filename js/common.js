@@ -46,6 +46,55 @@ document.getElementById('navbar_html').innerHTML = `
 				</div>
 			</div>`;
 
+document.getElementById('footer_tag').innerHTML = `
+	<div class="footer-wrap pbmit-footer-widget-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<aside class="widget pbmit-two-column-menu">
+						<ul>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="contact-us.html">Contact Us</a></li>
+							<li><a href="service-details.html">Service</a></li>
+							<li><a href="portfolio-detail-style-1.html">Project</a></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-md-4">
+					<aside class="widget pbmit-two-column-menu">
+						<ul id="footer_middle_div">
+							<li>kumawatashok086@gmail.com</li>
+							<li style="display:none"> </li>
+							<li>+91 88881 99337</li>
+							<li>MUMBAI, 401203</li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-md-4">
+					<aside class="widget">
+						<div class="textwidget">
+							<div class="pbmit-footer-logo" style=" font-size: 34px; color: #d0b08f; ">
+								Innerlux Design Studio
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pbmit-footer-text-area">
+		<div class="container">
+			<div class="pbmit-footer-text-inner">
+				<div class="row">
+					<div class="col-md-12"> 
+						<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="#">Innerlux Design Studio</a> All Rights Reserved.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+`;			
 
 $( window ).on("load", function() {
     console.log(window.location.pathname.split("/")[1]);
@@ -57,5 +106,7 @@ $( window ).on("load", function() {
         $("#about_link").addClass("active");
     }else if(window.location.pathname.split("/")[1] === "contact-us.html"){
         $("#contact_us_link").addClass("active");
-    } 
+    }else{
+		$("#home_link").addClass("active");	
+	}
 });

@@ -1,0 +1,15 @@
+#footer_middle_div {
+    margin-top: -27px;
+}
+
+#footer_middle_div li:first-child{
+    display: block;
+    position: relative;
+    margin-left: 40px;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.contact-title{
+    margin-right: 10px;
+}

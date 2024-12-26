@@ -28,11 +28,15 @@ document.getElementById('navbar_html').innerHTML = `
 												</svg>
 											</span>
 											<ul class="navigation clearfix menu_list">
-												<li class="dropdown" id="home_link">
+												<li id="home_link">
 													<a href="index.html">Home</a>
 												</li>
-												<li class="dropdown" id="service_link">
+												<li id="service_link">
 													<a href="service-details.html">Services</a>
+												</li>
+												</li>
+												<li id="projects_link">
+													<a href="projects.html">Projects</a>
 												</li>
 												<li id="about_link"><a href="about-us.html">About Us</a></li>
 												<li id="contact_us_link"><a href="contact-us.html">Contact Us</a></li>
@@ -56,7 +60,7 @@ document.getElementById('footer_tag').innerHTML = `
 							<li><a href="about-us.html">About Us</a></li>
 							<li><a href="contact-us.html">Contact Us</a></li>
 							<li><a href="service-details.html">Service</a></li>
-							<li><a href="portfolio-detail-style-1.html">Project</a></li>
+							<li><a href="projects.html">Projects</a></li>
 						</ul>
 					</aside>
 				</div>
@@ -96,7 +100,7 @@ document.getElementById('footer_tag').innerHTML = `
 	</div>
 `;			
 
-$( window ).on("load", function() {
+$(window).on("load", function() {
     console.log(window.location.pathname.split("/")[1]);
     if(window.location.pathname.split("/")[1] === "index.html"){
         $("#home_link").addClass("active");
@@ -106,7 +110,12 @@ $( window ).on("load", function() {
         $("#about_link").addClass("active");
     }else if(window.location.pathname.split("/")[1] === "contact-us.html"){
         $("#contact_us_link").addClass("active");
+    }else if(window.location.pathname.split("/")[1] === "projects.html"){
+        $("#projects_link").addClass("active");
     }else{
 		$("#home_link").addClass("active");	
 	}
 });
+
+
+

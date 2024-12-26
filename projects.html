@@ -1,0 +1,232 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Innerlux Design Studio</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.png">
+
+    <!-- CSS
+        ============================================ -->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<!-- Flaticon -->
+	<link rel="stylesheet" href="css/flaticon.css">
+	<!-- Base Icons -->
+	<link rel="stylesheet" href="css/pbminfotech-base-icons.css"> 
+	<!-- Themify Icons -->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Swiper -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<!-- Magnific -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	<!-- Shortcode CSS -->
+	<link rel="stylesheet" href="css/shortcode.css">
+	<!-- Base CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	
+	<link rel="stylesheet" href="css/common.css">
+	
+	<script src="js/gallaryList.js"></script>
+</head>
+
+<body>
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+
+		<!-- Header Main Area -->
+		<header class="site-header header-style-4">
+			<div id="navbar_html"></div>
+        </header>
+		<!-- Header Main Area End Here -->
+
+		<!-- Title Bar -->
+		<div class="pbmit-title-bar-wrapper">
+			<div class="container">
+				<div class="pbmit-title-bar-content">
+					<div class="pbmit-title-bar-content-inner">
+						<div class="pbmit-tbar">
+							<div class="pbmit-tbar-inner container">
+								<h1 class="pbmit-tbar-title">Projects</h1>
+							</div>
+						</div>
+						<div class="pbmit-breadcrumb">
+							<div class="pbmit-breadcrumb-inner">
+								<span>
+									<a title="" href="#" class="home"><span>Innerlux Design Studio</span></a>
+								</span>
+								<span class="sep">
+									<i class="pbmit-base-icon-angle-right"></i>
+								</span>
+								<span><span class="post-root post post-post current-item">Projects</span></span>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div> 
+		</div>
+		<!-- Title Bar End-->
+
+        <!-- Page Content -->
+        <div class="page-content">   
+            
+        <!-- Portfolio Sortable Col 4 Start -->
+		<section class="section-md pbmit-sortable-yes pbmit-element-column-four">
+			<div class="container-fluid px-4">
+				<div class="pbmit-sortable-list">
+					<ul class="pbmit-sortable-list-ul">
+					   <li><a href="#" class="pbmit-sortable-link pbmit-selected" data-sortby="*">All</a></li>
+					   <li><a href="#" class="pbmit-sortable-link" data-sortby="bedroom">Bedroom</a></li>
+					   <li><a href="#" class="pbmit-sortable-link" data-sortby="living-room">Living Room</a></li>
+					   <li><a href="#" class="pbmit-sortable-link" data-sortby="kitchen">Kitchen</a></li>
+					   <li><a href="#" class="pbmit-sortable-link" data-sortby="bathroom">Bathroom</a></li>
+					   <li><a href="#" class="pbmit-sortable-link" data-sortby="terrace">Terrace</a></li>
+					</ul>
+				</div>
+				<div class="pbmit-element-posts-wrapper row multi-columns-row" id="gallery_images">
+					<script>
+						var _projectsData =  projects;
+							// alert(mydata[0]);
+							for(var i=0;i<_projectsData.length;i++){  
+								document.getElementById("gallery_images").innerHTML += `
+									<article class="pbmit-ele-portfolio pbmit-portfolio-style-2 ${_projectsData[i].type} col-md-6 col-lg-3">
+										<div class="pbminfotech-post-content">
+											<div class="pbmit-featured-img-wrapper">
+												<div class="pbmit-featured-wrapper">
+													<img src="${_projectsData[i].path}" class="img-fluid gallary-img" alt="">
+												</div>
+											</div>
+											<div class="pbminfotech-box-content">
+												<div class="pbminfotech-titlebox">	
+													<h3 class="pbmit-portfolio-title">
+														<a href="javascript:void(0)">${_projectsData[i].title}</a>
+													</h3>
+												</div>
+											</div>
+										</div>
+									</article>
+								`;
+							}
+					</script>
+				</div>
+				<div style="text-align: center;padding: 48px;" id="loader">
+					<img src="images/loader.gif" height="100px" style="width: 100px !important;"/> 
+				</div>
+			</div>
+		</section>
+		<!-- Portfolio Sortable Col 4 End -->
+
+        </div>
+        <!-- Page Content End -->
+
+		<!-- footer -->
+		<footer class="site-footer footer-style-1 pbmit-bg-color-secondary" id="footer_tag">
+					
+		</footer>
+		<!-- footer End -->
+
+   </div>
+   <!-- Page Wrapper End -->
+
+    <!-- Search Box Start Here -->
+	<div class="pbmit-search-overlay">
+		<div class="pbmit-icon-close">
+			<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewBox="0 0 26.163 26.163">
+				<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
+				<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
+			</svg>
+		</div>
+		<div class="pbmit-search-outer"> 
+			<form class="pbmit-site-searchform">
+				<input type="search" class="form-control field searchform-s" name="s" placeholder="Search …">
+				<button type="submit"></button>
+			</form>
+		</div>
+	</div>
+    <!-- Search Box End Here -->
+
+   	<!-- Scroll To Top -->
+	<div class="pbmit-progress-wrap">
+		<svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+		</svg>	
+	</div>
+	<!-- Scroll To Top End -->
+ 
+    <!-- JS 
+      	============================================ -->
+	<!-- jQuery JS -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jquery Waypoints JS -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- jquery Appear JS -->
+	<script src="js/jquery.appear.js"></script>
+	<!-- Numinate JS -->
+	<script src="js/numinate.min.js"></script>
+	<!-- Slick JS -->
+	<script src="js/swiper.min.js"></script>
+	<!-- Magnific JS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Circle Progress JS -->
+	<script src="js/circle-progress.js"></script> 
+	<!-- countdown JS -->
+	<script src="js/jquery.countdown.min.js"></script> 
+	<!-- masonry JS -->
+	<script src="js/masonry.min.js"></script> 
+	<!-- AOS -->
+	<script src="js/aos.js"></script>
+	<!-- GSAP -->
+	<script src='js/gsap.js'></script>
+	<!-- Scroll Trigger -->
+	<script src='js/ScrollTrigger.js'></script>
+	<!-- Split Text -->
+	<script src='js/SplitText.js'></script>
+	<!-- Magnetic -->
+	<script src='js/magnetic.js'></script>
+	<!-- Isotope JS -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<!-- Morphext JS -->
+	<script src="js/morphext.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<!-- GSAP Animation -->
+	<script src='js/gsap-animation.js'></script>
+	<!-- Scripts JS -->
+	<script src="js/scripts.js"></script>
+
+	<script src="js/common.js"></script>
+
+	<script>
+		
+		$("#gallery_images").hide();
+		// $("#gallery_images").show();
+		// $("#loader").hide();
+		// $("#gallery_images").show();
+		// $(".pbmit-sortable-list-ul li:first-child").trigger("click");
+		
+		$( window ).on( "load", function() {
+			
+			setTimeout(function(){
+				$("#gallery_images").show();
+				$("#loader").hide();
+				$(".pbmit-selected").trigger("click");
+			}, 1000);
+		} );
+	</script>
+   </body>
+</html>

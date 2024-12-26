@@ -13,3 +13,8 @@
 .contact-title{
     margin-right: 10px;
 }
+
+.gallary-img{
+    height: 309px;
+    object-fit: fill;
+}

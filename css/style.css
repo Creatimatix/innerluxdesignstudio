@@ -2647,3 +2647,10 @@ textarea.form-control{
 .form-control:focus::placeholder{
 	opacity: 1;
 }
+
+@media (max-width: 600px) {
+    .logo-img {
+      width: 293px;
+      margin-left: -15px;
+    }
+  }

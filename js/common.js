@@ -5,7 +5,7 @@ document.getElementById('navbar_html').innerHTML = `
 						<div class="site-branding">
 							<h1 class="site-title">
 								<a href="index.html">
-									<img class="logo-img" src="images/logo.png" alt="Innerlux Design Studio" style="max-height: 83px !important;">
+									<img class="logo-img" src="images/logo.png" alt="Inner Lux Design Studio" style="max-height: 83px !important;">
 								</a>
 							</h1>
 						</div>
@@ -78,7 +78,7 @@ document.getElementById('footer_tag').innerHTML = `
 					<aside class="widget">
 						<div class="textwidget">
 							<div class="pbmit-footer-logo" style=" font-size: 34px; color: #d0b08f; ">
-								Innerlux Design Studio
+								Inner Lux Design Studio
 							</div>
 						</div>
 					</aside>
@@ -92,7 +92,7 @@ document.getElementById('footer_tag').innerHTML = `
 			<div class="pbmit-footer-text-inner">
 				<div class="row">
 					<div class="col-md-12"> 
-						<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="#">Innerlux Design Studio</a> All Rights Reserved.</div>
+						<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="#">Inner Lux Design Studio</a> All Rights Reserved.</div>
 					</div>
 				</div>
 			</div>

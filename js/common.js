@@ -13,6 +13,7 @@ document.getElementById('navbar_html').innerHTML = `
 							<div class="site-navigation">
 								<nav class="main-menu navbar-expand-xl navbar-light">
 									<div class="navbar-header">
+										<div class="pbmit-mobile-menu-bg" style="display:none"></div>
 										<!-- Toggle Button --> 
 										<button class="navbar-toggler" type="button">
 											<i class="pbmit-base-icon-menu-1"></i>
@@ -66,7 +67,7 @@ document.getElementById('footer_tag').innerHTML = `
 				<div class="col-md-4">
 					<aside class="widget pbmit-two-column-menu">
 						<ul id="footer_middle_div">
-							<li>kumawatashok086@gmail.com</li>
+							<li>innerluxdesignstudio@gmail.com</li>
 							<li style="display:none"> </li>
 							<li>+91 88881 99337</li>
 							<li>MUMBAI, 401203</li>
@@ -79,6 +80,9 @@ document.getElementById('footer_tag').innerHTML = `
 							<div class="pbmit-footer-logo" style=" font-size: 34px; color: #d0b08f; ">
 								InnerLux Design Studio
 							</div>
+							<a href="https://wa.me/+918888199337" target="_blank" class="whatsapp-icon" style=" position: fixed; bottom: 107px; right: 34px;z-index: 999 ">
+								<img src='../images/avtar/pngegg.png' style="width:82px; height: 82px" />
+							</a>
 						</div>
 					</aside>
 				</div>

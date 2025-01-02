@@ -4,8 +4,8 @@ document.getElementById('navbar_html').innerHTML = `
 					<div class="pbmit-header-content d-flex justify-content-between align-items-center">
 						<div class="site-branding">
 							<h1 class="site-title">
-								<a href="index.html">
-									<img class="logo-img" src="images/logo.png" alt="Inner Lux Design Studio" style="max-height: 83px !important;">
+								<a href="/">
+									<img class="logo-img" src="images/logo.png" alt="InnerLux Design Studio" style="max-height: 83px !important;">
 								</a>
 							</h1>
 						</div>
@@ -29,7 +29,7 @@ document.getElementById('navbar_html').innerHTML = `
 											</span>
 											<ul class="navigation clearfix menu_list">
 												<li id="home_link">
-													<a href="index.html">Home</a>
+													<a href="/">Home</a>
 												</li>
 												<li id="service_link">
 													<a href="service-details.html">Services</a>
@@ -78,7 +78,7 @@ document.getElementById('footer_tag').innerHTML = `
 					<aside class="widget">
 						<div class="textwidget">
 							<div class="pbmit-footer-logo" style=" font-size: 34px; color: #d0b08f; ">
-								Inner Lux Design Studio
+								InnerLux Design Studio
 							</div>
 						</div>
 					</aside>
@@ -92,7 +92,7 @@ document.getElementById('footer_tag').innerHTML = `
 			<div class="pbmit-footer-text-inner">
 				<div class="row">
 					<div class="col-md-12"> 
-						<div class="pbmit-footer-copyright-text-area"> Copyright © 2024 <a href="#">Inner Lux Design Studio</a> All Rights Reserved.</div>
+						<div class="pbmit-footer-copyright-text-area"> Copyright © <span id="year"></span> <a href="#">InnerLux Design Studio</a> All Rights Reserved.</div>
 					</div>
 				</div>
 			</div>
@@ -117,5 +117,4 @@ $(window).on("load", function() {
 	}
 });
 
-
-
+document.getElementById("year").innerHTML = new Date().getFullYear();

@@ -342,10 +342,13 @@
 	/*-------------------------------------
 		Mobile Menu
 	-------------------------------------*/     
-	$('.navbar-toggler,.closepanel').on('click', function () { 
+	// $('.navbar-toggler,.closepanel').on('click', function () { 
+	// 	jQuery("header").toggleClass("active");
+	// }); 
+
+	$(document).on('click','.navbar-toggler,.closepanel', function () { 
 		jQuery("header").toggleClass("active");
 	}); 
-
 	/*-------------------------------------
 	Sticky header wrapper
 	-------------------------------------*/

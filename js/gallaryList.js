@@ -59,11 +59,11 @@ const projects  = [
 ];
 
 const projectsHome  = [
-    { "path": 'images/projects/bedroom/1.jpg',"title": "Bedroom" ,"type":"bedroom", "category": "Bedroom"},
+    // { "path": 'images/projects/bedroom/1.jpg',"title": "Bedroom" ,"type":"bedroom", "category": "Bedroom"},
     { "path": 'images/projects/bedroom/12.jpg',"title": "Bedroom" ,"type":"bedroom", "category": "Bedroom"},
     { "path": 'images/projects/living-room/1.jpg',"title": "Living Room" ,"type":"living-room", "category": "Living Room"},
     { "path": 'images/projects/living-room/12.jpg',"title": "Living Room" ,"type":"living-room", "category": "Living Room"},
-    { "path": 'images/projects/kitchen/1.jpg',"title": "Kitchen" ,"type":"kitchen", "category": "Kitchen"},
+    // { "path": 'images/projects/kitchen/1.jpg',"title": "Kitchen" ,"type":"kitchen", "category": "Kitchen"},
     { "path": 'images/projects/kitchen/5.jpg',"title": "Kitchen" ,"type":"kitchen", "category": "Kitchen"},
     { "path": 'images/projects/bathroom/1.jpg',"title": "Bathroom" ,"type":"bathroom", "category": "Bathroom"},
     { "path": 'images/projects/terrace/1.jpg',"title": "Terrace" ,"type":"terrace", "category": "Terrace"},

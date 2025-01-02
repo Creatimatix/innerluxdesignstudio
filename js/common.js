@@ -18,7 +18,6 @@ document.getElementById('navbar_html').innerHTML = `
 											<i class="pbmit-base-icon-menu-1"></i>
 										</button>
 									</div>
-									<div class="pbmit-mobile-menu-bg"></div>
 									<div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
 										<div class="pbmit-menu-wrap">
 											<span class="closepanel">

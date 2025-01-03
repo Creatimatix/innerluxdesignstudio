@@ -67,9 +67,9 @@ document.getElementById('footer_tag').innerHTML = `
 				<div class="col-md-4">
 					<aside class="widget pbmit-two-column-menu">
 						<ul id="footer_middle_div">
-							<li>innerluxdesignstudio@gmail.com</li>
+							<li><a href="mailto:innerluxdesignstudio@gmail.com">innerluxdesignstudio@gmail.com</a></li>
 							<li style="display:none"> </li>
-							<li>+91 88881 99337</li>
+							<li><a href="tel:+918888199337">+91 88881 99337</a></li>
 							<li>MUMBAI, 401203</li>
 						</ul>
 					</aside>
@@ -81,7 +81,7 @@ document.getElementById('footer_tag').innerHTML = `
 								InnerLux Design Studio
 							</div>
 							<a href="https://api.whatsapp.com/send?phone=8888199337&text=Hello" target="_blank" class="whatsapp-icon" style=" position: fixed; bottom: 107px; right: 34px;z-index: 999 ">
-								<img src='../images/avtar/pngegg.png' style="width:82px; height: 82px" />
+								<img src='../images/avtar/pngegg.png' style="width:70px; height: 70px" />
 							</a>
 						</div>
 					</aside>
@@ -121,3 +121,12 @@ $(window).on("load", function() {
 });
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+$(window).on('scroll', function() {
+	if ($('.pbmit-progress-wrap').hasClass('active-progress')) {
+        $(".whatsapp-icon").css({"bottom":"100px","right":"7px"});
+    }else{
+		$(".whatsapp-icon").css({"bottom":"20px","right":"7px"});
+	}
+ });
+

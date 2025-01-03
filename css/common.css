@@ -18,3 +18,7 @@
     height: 309px;
     object-fit: fill;
 }
+
+.pbmit-progress-wrap{
+    right: 17px !important;
+}

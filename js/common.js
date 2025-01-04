@@ -80,7 +80,7 @@ document.getElementById('footer_tag').innerHTML = `
 							<div class="pbmit-footer-logo" style=" font-size: 34px; color: #d0b08f; ">
 								InnerLux Design Studio
 							</div>
-							<a href="https://wa.me/8888199337" target="_blank" class="whatsapp-icon" style=" position: fixed; bottom: 17px; right: 3px;z-index: 999 ">
+							<a href="https://api.whatsapp.com/send/?phone=918888199337&amp;text=Hi+InnerLux+Design+Studio+team,+I+am+interested+in+your+services.+Can+you+please+share+more+details%3F&amp;app_absent=0" target="_blank" class="whatsapp-icon" style=" position: fixed; bottom: 17px; right: 3px;z-index: 999 ">
 								<img src='../images/avtar/pngegg.png' style="width:70px; height: 70px" />
 							</a>
 						</div>

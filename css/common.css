@@ -22,3 +22,29 @@
 .pbmit-progress-wrap{
     right: 17px !important;
 }
+
+
+.pbmit-footer-logo img {
+    height: 114px !important;
+    position: absolute;
+    margin-top: -49px;
+    margin-left: -113px;
+}
+
+@media (max-width: 600px) {
+    .pbmit-footer-logo img {
+        height: 123px !important;
+        position: relative;
+        margin-top: -47px;
+        margin-left: -18px;
+    }
+
+    #footer_middle_div li:first-child{
+        margin-left: 2px;
+        font-size: 20px;
+    }
+
+    .pbmit-two-column-menu {
+        text-align: center;
+    }
+  }
